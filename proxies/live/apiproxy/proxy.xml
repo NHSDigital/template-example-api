@@ -1,0 +1,4 @@
+<APIProxy name="gt">
+  <!-- This is the root of the application -->
+  <Description>Proxy to Generated Template Example API endpoints.</Description>
+</APIProxy>
