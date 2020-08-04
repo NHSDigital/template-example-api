@@ -89,4 +89,4 @@ jobs:
         displayName: Build Release Package
 
       - publish: dist/
-        artifact: '$(Build.BuildNumber)'
+        artifact: 'template-example-$(Build.BuildNumber)'
