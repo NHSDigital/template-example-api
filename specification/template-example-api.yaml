@@ -1,0 +1,45 @@
+openapi: "3.0.0"
+x-nhsd-api-platform:
+  meta:
+    name: Generated Template API
+    canonical_name: generated-template
+    short_name: gt
+    description: This is a generated template API
+  pipeline_name_prefix: Generated-Template
+  base_path: "/generated-template"
+  
+info:
+  version: "0.0.1"
+  title: Hello World API
+  description: |
+    ## Overview
+  contact:
+    name: API Management Support
+    email: api.management@nhs.net
+    
+paths:
+  /hello:
+    get:
+      summary: Say hello world.
+      operationId: getHello
+      description: |
+        Get a "Hello world!" response from an open-access endpoint.
+
+        Use this API alongside our [open-access REST API tutorial](https://digital.nhs.uk/developer/tutorials/open-access-rest-api-tutorial) to learn how to connect to our APIs.
+      responses:
+        '200':
+          description: Successful response.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Hello world!"
+              example:
+                message: "Hello world!"
+      tags:
+        - example
+tags:
+  - name: example
