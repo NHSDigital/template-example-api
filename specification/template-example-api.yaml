@@ -2,15 +2,15 @@ openapi: "3.0.0"
 x-nhsd-api-platform:
   meta:
     name: Generated Template API
-    canonical_name: generated-template
-    short_name: gt
+    canonical_name: template-example
+    short_name: te
     description: This is a generated template API
   pipeline_name_prefix: Generated-Template
-  base_path: "/generated-template"
+  base_path: "/template-example"
   
 info:
   version: "0.0.1"
-  title: Hello World API
+  title: Template Example
   description: |
     ## Overview
   contact:
