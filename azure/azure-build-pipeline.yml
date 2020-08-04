@@ -29,7 +29,7 @@ jobs:
     variables:
       API_TEST_ENV_FILE_PATH: "tests/e2e/environments/local.postman_environment.json"
       PIP_CACHE_DIR: ".poetry"
-      SERVICE_NAME: "template-example-appi"
+      SERVICE_NAME: "template-example-api"
     steps:
       - checkout: self
 
